@@ -21,3 +21,21 @@
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 600px) {
+  .skills {
+    height: 100vh;
+  }
+  .skills__item {
+    width: 90%;
+    height: 90%;
+  }
+  .skills__item__text {
+    height: 5%;
+  }
+  .skills__item__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

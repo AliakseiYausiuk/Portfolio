@@ -21,3 +21,18 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 600px) {
+  .main__item {
+    width: 90%;
+    height: 90%;
+  }
+  .main__item__text {
+    height: 5%;
+  }
+  .main__item__content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

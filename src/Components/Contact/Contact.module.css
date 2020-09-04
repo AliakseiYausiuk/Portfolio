@@ -32,3 +32,23 @@
   height: 20%;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .contact__item {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .contact__item__text {
+    height: 5%;
+  }
+  .contact__item__button {
+    height: 5%;
+  }
+  .contact__item__form {
+    width: 90%;
+  }
+}

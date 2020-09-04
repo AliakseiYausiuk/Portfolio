@@ -11,3 +11,11 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+  .mainItem__item {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+  }
+}
